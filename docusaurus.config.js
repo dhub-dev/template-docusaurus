@@ -67,10 +67,6 @@ const config = {
       image: "img/docusaurus-social-card.jpg",
       navbar: {
         title: "My Site",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
-        },
         items: [
           {
             type: "docSidebar",
@@ -80,11 +76,6 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/about-page", label: "About", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
         ],
       },
       footer: {
@@ -141,7 +132,7 @@ const config = {
                 href: "/",
               },
               {
-                label: "About",
+                label: "About Me",
                 href: "/about-page",
               },
             ],
