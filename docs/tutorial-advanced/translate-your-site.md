@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# Translate Your Site
 
 Let's translate `docs/intro.md` to French.
 
