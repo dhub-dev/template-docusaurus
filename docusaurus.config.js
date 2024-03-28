@@ -82,49 +82,6 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Docusaurus Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "Docusaurus Resources",
-            items: [
-              {
-                label: "Documentation",
-                href: "https://docusaurus.io/docs/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "Dhub Resources",
-            items: [
-              {
-                label: "Application",
-                href: "https://dhub.dev",
-              },
-              {
-                label: "Documentation",
-                href: "https://docs.dhub.dev",
-              },
-            ],
-          },
-          {
             title: "Site links",
             items: [
               {
@@ -141,8 +98,30 @@ const config = {
               },
             ],
           },
+
+          {
+            title: "Dhub",
+            items: [
+              {
+                label: "App",
+                href: "https://dhub.dev",
+              },
+              {
+                label: "Website",
+                href: "https://dhub.dev",
+              },
+              {
+                label: "Discord",
+                href: "https://discord.gg/6qGnyrt7xy",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/dhub-dev",
+              },
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Blog Website, Inc. Built with Docusaurus, edited with Dhub`,
+        copyright: `Copyright © ${new Date().getFullYear()} Blog Website, Inc. Edited with Dhub on Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
