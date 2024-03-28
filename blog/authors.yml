@@ -1,16 +1,16 @@
-ceo:
+val:
   name: Val Repšys
   title: CEO @ Dhub
-  url: https://github.com/vrepsys
+  url: https://dhub.dev/
   image_url: https://avatars.githubusercontent.com/u/1429012
 
 arijus:
   name: Arijus Šukys
-  title: Super Engineer @ Dhub
-  url: https://github.com/argshook
+  title: Engineer @ Dhub
+  url: https://dhub.dev/
   image_url: https://avatars.githubusercontent.com/u/4284659
 
-personX:
+wonderful-person:
   name: A wonderful person
-  title: First Dhub customer
+  title: That's you!
   image_url: https://images.unsplash.com/photo-1588080064985-cb6ae38645bc?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D

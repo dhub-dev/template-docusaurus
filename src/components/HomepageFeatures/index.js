@@ -4,32 +4,24 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
+    title: "Intuitive Editing",
     Svg: require("@site/static/img/img1.svg").default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <>No engineering degree needed. Dhub is designed to be easy to use.</>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Collaborative by Default",
     Svg: require("@site/static/img/img2.svg").default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    description: <>Real-time WYSIWYG editing .</>,
   },
   {
-    title: "Powered by React",
+    title: "GitHub-aware",
     Svg: require("@site/static/img/img3.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        In sync with your GitHub repository. Push and pull changes by clicking a
+        button.
       </>
     ),
   },

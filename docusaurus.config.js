@@ -8,8 +8,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Exploring the Digital Frontier",
-  tagline: "A Comprehensive Journey into Docusaurus Documentation",
+  title: "Your docs with Dhub",
+  tagline: "Collaborative WYSIWYG editor for your Docusarus site",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -20,10 +20,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "dhub-dev", // Usually your GitHub org/user name.
+  projectName: "template-docusaurus", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -43,15 +43,13 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/dhub-dev/template-docusaurus/tree/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/dhub-dev/template-docusaurus/tree/main",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -75,57 +73,13 @@ const config = {
             label: "Docs",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          { to: "/about-page", label: "About", position: "left" },
+          { to: "/about", label: "About", position: "left" },
         ],
       },
       footer: {
         style: "light",
         links: [
           {
-            title: "Docusaurus Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "Docusaurus Resources",
-            items: [
-              {
-                label: "Documentation",
-                href: "https://docusaurus.io/docs/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "Dhub Resources",
-            items: [
-              {
-                label: "Application",
-                href: "https://dhub.dev",
-              },
-              {
-                label: "Documentation",
-                href: "https://docs.dhub.dev",
-              },
-            ],
-          },
-          {
-            title: "Site links",
             items: [
               {
                 label: "Documentation",
@@ -137,12 +91,40 @@ const config = {
               },
               {
                 label: "About",
-                href: "/about-page",
+                href: "/about",
+              },
+            ],
+          },
+
+          {
+            title: "Dhub",
+            items: [
+              {
+                label: "App",
+                href: "https://dhub.dev",
+              },
+              {
+                label: "Website",
+                href: "https://dhub.dev",
+              },
+            ],
+          },
+
+          {
+            title: "Support",
+            items: [
+              {
+                label: "Discord",
+                href: "https://discord.gg/6qGnyrt7xy",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/dhub-dev",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Blog Website, Inc. Built with Docusaurus, edited with Dhub`,
+        copyright: `Copyright © ${new Date().getFullYear()} Blog Website, Inc. Edited with Dhub on Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
